@@ -1,0 +1,129 @@
+# {{PROJECT_NAME}} Product Context
+
+> This file provides product and business context to all AI agents. Update it as your product evolves.
+
+## Overview
+
+{{PROJECT_NAME}} is **{{TAGLINE}}**.
+
+**Vision:** {{DETAILED_VISION}}
+
+## Target Users
+
+**Primary Audience:** {{PRIMARY_AUDIENCE}}
+
+**User Personas:**
+- {{PERSONA_1}}: {{DESCRIPTION}}
+- {{PERSONA_2}}: {{DESCRIPTION}}
+
+## Core Problem
+
+**Problem Statement:**
+{{WHAT_PROBLEM_DOES_THIS_SOLVE}}
+
+**Current Solution (if any):**
+{{WHAT_USERS_DO_NOW}}
+
+**Why This Matters:**
+{{IMPACT_IF_SOLVED}}
+
+## Tech Stack
+
+- **Framework:** {{FRAMEWORK}}
+- **Language:** {{LANGUAGE}}
+- **Database:** {{DATABASE}}
+- **Key Dependencies:**
+  - {{DEPENDENCY_1}} - {{PURPOSE}}
+  - {{DEPENDENCY_2}} - {{PURPOSE}}
+
+## Domain Entities
+
+Core concepts in this project:
+
+| Entity | Description | Key Fields |
+|--------|-------------|------------|
+| {{ENTITY_1}} | {{DESCRIPTION}} | {{FIELDS}} |
+| {{ENTITY_2}} | {{DESCRIPTION}} | {{FIELDS}} |
+| {{ENTITY_3}} | {{DESCRIPTION}} | {{FIELDS}} |
+
+**Entity Relationships:**
+```
+{{ENTITY_1}}
+  ├── has many {{ENTITY_2}}
+  └── belongs to {{ENTITY_3}}
+```
+
+## External Dependencies
+
+### {{SERVICE_1}} (e.g., Stripe)
+- **Purpose:** {{WHY_WE_USE_IT}}
+- **Key Operations:** {{WHAT_WE_DO}}
+- **Constraints:** {{RATE_LIMITS_OR_COSTS}}
+
+### {{SERVICE_2}} (e.g., SendGrid)
+- **Purpose:** {{WHY_WE_USE_IT}}
+- **Key Operations:** {{WHAT_WE_DO}}
+- **Constraints:** {{RATE_LIMITS_OR_COSTS}}
+
+## Key Constraints
+
+- **Performance:** {{LATENCY_REQUIREMENTS}}
+- **Scale:** {{USER_SCALE_TARGET}}
+- **Compliance:** {{REGULATORY_REQUIREMENTS}}
+- **Budget:** {{COST_CONSTRAINTS}}
+- **Technical:** {{TECHNICAL_LIMITATIONS}}
+
+## Folder Structure
+
+```
+{{PROJECT_ROOT}}/
+├── {{SOURCE_DIR}}/
+│   ├── {{ENTITIES_DIR}}/
+│   ├── {{LIB_DIR}}/
+│   ├── {{API_DIR}}/
+│   └── {{UI_DIR}}/
+├── {{TESTS_DIR}}/
+└── {{CONFIG_DIR}}/
+```
+
+## Development Phases
+
+### MVP ({{MVP_TIMELINE}})
+**Goal:** {{MVP_GOAL}}
+
+**Scope:**
+- {{MVP_FEATURE_1}}
+- {{MVP_FEATURE_2}}
+- {{MVP_FEATURE_3}}
+
+**Success Criteria:**
+- {{MVP_METRIC_1}}
+- {{MVP_METRIC_2}}
+
+### V1.5 ({{V15_TIMELINE}})
+**Goal:** {{V15_GOAL}}
+
+**Scope:**
+- {{V15_FEATURE_1}}
+- {{V15_FEATURE_2}}
+
+### V2 ({{V2_TIMELINE}})
+**Goal:** {{V2_GOAL}}
+
+## Product-Specific Patterns
+
+{{CUSTOM_PATTERNS}}
+
+Example:
+- Every {{ENTITY_1}} MUST have {{REQUIRED_FIELD}}
+- {{ENTITY_2}} creation requires validation via {{SERVICE}}
+- All {{ENTITY_3}} operations are atomic transactions
+
+## How to Update This File
+
+- Update when product vision changes
+- Update when adding new domain entities
+- Update when changing tech stack
+- Update at major milestones (MVP shipped, V1.5 complete)
+
+Last updated: {{TODAY}}

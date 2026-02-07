@@ -1,0 +1,77 @@
+# Current Priorities (Week of {{WEEK_OF}})
+
+> Updated every Monday. Guides all agents on what matters most RIGHT NOW.
+
+## This Week's Focus
+
+### P1 - Must Ship This Week
+1. **[Feature/Bug Name]**
+   - Why: {{REASON}}
+   - Owner: {{AGENT_OR_PERSON}}
+   - Success: {{METRIC}}
+   - Status: {{IN_PROGRESS | BLOCKED | DONE}}
+
+2. **[Feature/Bug Name]**
+   - Why: {{REASON}}
+   - Owner: {{AGENT_OR_PERSON}}
+   - Success: {{METRIC}}
+   - Status: {{STATUS}}
+
+### P2 - Nice to Have
+1. **[Feature Name]**
+   - Why: {{REASON}}
+   - Owner: {{AGENT_OR_PERSON}}
+
+## Blockers
+
+| Blocker | Blocking What | Owner | Resolution |
+|---------|---------------|-------|------------|
+| {{BLOCKER}} | {{WHAT_ITS_BLOCKING}} | {{WHO}} | {{WHAT_NEEDS_TO_HAPPEN}} |
+
+If no blockers: "None 🎉"
+
+## Decisions Made This Week
+
+| Decision | Rationale | Date | Who |
+|----------|-----------|------|-----|
+| Using {{TECH_CHOICE}} for {{USE_CASE}} | {{WHY}} | {{DATE}} | {{PERSON}} |
+
+## User Feedback Summary
+
+**Top Pain Point:** {{WHAT_USERS_ARE_COMPLAINING_ABOUT}}
+
+**Top Request:** {{WHAT_USERS_WANT_MOST}}
+
+**Recent Praise:** {{WHAT_USERS_LOVE}}
+
+## Metrics This Week
+
+| Metric | Target | Actual | Trend |
+|--------|--------|--------|-------|
+| {{METRIC_1}} | {{TARGET}} | {{ACTUAL}} | ↑/↓/→ |
+| {{METRIC_2}} | {{TARGET}} | {{ACTUAL}} | ↑/↓/→ |
+
+## Next Week Preview
+
+What's coming:
+- {{NEXT_WEEK_ITEM_1}}
+- {{NEXT_WEEK_ITEM_2}}
+
+## Long-Term Context
+
+**Current Phase:** {{MVP | V1.5 | V2}}
+
+**Strategic Goal:** {{WHAT_WE_RE_WORKING_TOWARD}}
+
+**Key Milestone:** {{NEXT_BIG_MILESTONE}} by {{DATE}}
+
+---
+
+## How to Use This File
+
+**For Strategist:** Update every Monday morning
+**For Builder:** Check before picking up new work
+**For Operator:** Know what's shipping when
+**For Communicator:** Align messaging with current focus
+
+Last updated: {{TODAY}}
